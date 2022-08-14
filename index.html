@@ -1,0 +1,415 @@
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="../html/iewpics/edited logo iew.jpeg" type="image/gif" sizes="20x20">
+  <title>IEW</title>
+  <style type="text/css">
+    .img-fluid {
+      padding-top: 64px;
+    }
+
+    body {
+      background-color: #1a001a;
+    }
+
+    nav {
+      display: flex;
+      background-color: #660066;
+      color: black;
+      font-size: large;
+
+    }
+
+    .active {
+      color: white;
+      text-decoration: none;
+    }
+
+    #nav-item:hover {
+      transform: scale(1.2);
+      color: white;
+    }
+
+    #nav-item {
+      color: white;
+      font-family: 'Source Serif Pro', serif;
+    }
+
+    .column {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #660066;
+      padding: 2px 16px;
+      color: white;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Six columns side by side */
+    .column1 {
+      float: left;
+      width: 16.66%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+  </style>
+  <header class="container-fluid">
+    <nav class=" navbar navbar-light navbar-expand-lg fixed-top">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="color: tomato;"></span>
+      </button>
+      <a id="nav-item" class="nav-item nav-link active pl-sm-0 ml-0 ml-sm-4"
+        style=" font-family: 'Playfair Display', serif; font-size: larger;">IEW</a>
+      <div class="justify-content-md-center collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="nav  navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a id="nav-item" class="nav-link" href="#"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-item" class="nav-link" href="#about">About Us </a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-item" class="nav-link" href="#services">Services </a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-item" class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-item" class="nav-link" href="#contact us">Contact Us</a>
+          </li>
+        </ul>
+    </nav>
+  </header>
+
+<body>
+  <section id="home">
+    <img src="./images/ISAI ENGINEERING WORKS.png" class="img-fluid" alt="Responsive image">
+  </section>
+  <section id="about">
+    <div id="content" class="container" style="padding-bottom: 20px;">
+      <img src="./images/aboutussred.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="220"
+        height="170">
+      <p class="card-text" style="color: lightgoldenrodyellow; font-family: 'Kreon', serif;"> Isai Engineering Works
+        is one of a leading company in the field of Mechanical & Electrical systems by undertaking projects in Atomic
+        and
+        Hydro Power Plants.</p>
+      <p class="card-text" style="color: lightgoldenrodyellow;font-family: 'Kreon', serif;">
+        IEW was established in the year 2010. Since then we are providing our best service spread over Tamil Nadu,
+        Kerala, Karnataka, Orissa, Assam, Gujarat, Punjab, Haryana.
+        Being one of the most successful service provider in the India's Engineering Market, We also taken up a project
+        in
+        Gereshk Hydroelectric power plant which is located in Afghanistan.</p>
+      <p class="card-text" style="color: lightgoldenrodyellow;font-family: 'Kreon', serif;">
+        Our organisation is run by experienced technicians who have vast experience in the field of Electrical and
+        Mechanical as well.
+        Well experienced staffs are our key strengths.
+      </p>
+    </div>
+
+  </section>
+  <section id="services">
+    <div id="content" class="container">
+      <img src="./images/aboutussred.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="240" height="190"
+        style="padding-top: 0%;">
+
+      <p class="card-text"
+        style="color: lightgoldenrodyellow; padding-bottom: 0%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger;">
+        We are providing leading services like:</p>
+    </div>
+    <div class="row" style="padding-top: 0%;">
+      <div id="content1" class="column">
+        <img src="../iewpics/Alignment.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="200"
+          height="90px" style="padding-top: 10px;">
+      </div>
+      <div id="content1" class="column">
+        <img src="seal changing.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="200"
+          height="160" style="padding-top: 10px;">
+      </div>
+      <div id="content1" class="column">
+        <img src="leakage arr.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="200"
+          height="130" style="padding-top: 10px;">
+      </div>
+      <div id="content1" class="column">
+        <img src="vib arresting.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="200"
+          height="130" style="padding-top: 10px;">
+      </div>
+    </div>
+  </section>
+  <section id="gallery">
+    <div class="container">
+      <img src="./images/gallery.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="240" height="190"
+        style="padding-top: 0%; padding-bottom: 10px;">
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="./images/greshik,helmand.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="./images/hosangadi.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="./images/hosangadi3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="./images/afghan1.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="./images/afghan2.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <img src="./images/afghan3.jpeg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <div class="row">
+        <div class="column1">
+          <img class="demo cursor" src="./images/greshik,helmand.jpg" style="width:100%"
+            onclick="currentSlide(1)" alt="Hydro Electric power plant, Gereshk">
+        </div>
+        <div class="column1">
+          <img class="demo cursor" src="./images/hosangadi.jpg" style="width:100%" onclick="currentSlide(2)"
+            alt="Underground power plant,Kerala">
+        </div>
+        <div class="column1">
+          <img class="demo cursor" src="./images/hosangadi3.jpg" style="width:100%" onclick="currentSlide(3)"
+            alt="Hosangadi power plant">
+        </div>
+        <div class="column1">
+          <img class="demo cursor" src="./images/afghan1.jpeg" style="width:100%" onclick="currentSlide(4)"
+            alt="Gereshk spotlight 1">
+        </div>
+        <div class="column1">
+          <img class="demo cursor" src="./images/afghan2.jpeg" style="width:100%" onclick="currentSlide(5)"
+            alt="Gereshk spotlight 2">
+        </div>
+        <div class="column1">
+          <img class="demo cursor" src="./images/afghan3.jpeg" style="width:100%" onclick="currentSlide(6)"
+            alt="Gereshk spotlight 3">
+        </div>
+
+      </div>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
+
+  </section>
+  <section id="contact us">
+    <img src="./images/contactus.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image"
+      width="240" height="190" style="padding-top:2.5%; padding-bottom: 10px;">
+    <footer class="page-footer font-small unique-color-dark">
+
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+
+        <!-- Grid row -->
+        <div class="row mt-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <!-- Content -->
+            <h4 class="text-uppercase "
+              style="color:yellowgreen;  font-family: 'Orbitron', sans-serif; font-size:xx-large;"><b>IEW!</b></h4>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <P style="color: mintcream;font-family: 'PT Mono', monospace;"> “Design is not how it looks like and feels
+              like. Design is how it works” ― Steve Jobs</P>
+
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <!-- Links -->
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p style="color: white;">FOUNDER:
+              <a href="#">Vasudevan</a>
+            </p>
+
+            <p style="color: white;">CO-FOUNDER:
+              <a href="#">Isaivanan</a>
+            </p>
+
+            <P style="color: white;"> MAIL:
+              <a href="mailto: isaiengineeringwork@iewoffic.co.in ">isaiengineeringwork@iewoffic.co.in</a>
+            </P>
+            <p style="color: white;">MOBILE:
+              <a href="#">7639181727</a>
+            </p>
+
+
+          </div>
+
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" style="color:white; font-family: 'Ubuntu Mono', monospace;">©
+          2020 ALL rights reserved:
+          <a href="iewnew.html"> IEW</a>
+        </div>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+  </section>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+</html>
